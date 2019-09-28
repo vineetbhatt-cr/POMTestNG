@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POMTestNGSeleenium Test Suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="POM Free CRM Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.TasksPageTest">
+        <methods>
+          <include name="verifyTasksLabelTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.TasksPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="crmLogoImageTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="verifyContactsLabelTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateCreateNewContact"/>
+          <include name="selectContactsTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.DealsPageTest">
+        <methods>
+          <include name="verifyDealsLabelTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- POM Free CRM Test Cases(failed) -->
+</suite> <!-- Failed suite [POMTestNGSeleenium Test Suite] -->
